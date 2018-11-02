@@ -39,7 +39,7 @@ public class EmployeeController {
 	
 	@DeleteMapping("/api/empoyees/{empoyeeId}")
 	public void deleteEmployee(@PathVariable(name = "employeeId") Long employeeId) {
-		employeeService.deleteEmploye(employeeId);
+		employeeService.deleteEmployee(employeeId);
 	}
 	
 	@PutMapping("/api/empoyees/{empoyeeId}")
